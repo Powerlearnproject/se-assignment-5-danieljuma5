@@ -86,6 +86,16 @@ C/C++: "C/C++" by Microsoft for debugging and IntelliSense.
 4. Command Palette:
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
+   #### The most important key combination to know is Ctrl+Shift+P, which  up the Command Palette. From here, you have access to all functionality within VS Code, including keyboard shortcuts for the most common operations.
+
+   Examples of common tasks performed using commmand palette
+   #### Accessing various keyboard shortcuts
+   #### Creating projects eg flutter
+   #### Accessing various settings and configurations.
+   #### Changing themes and font
+   #### editor commands,open files, search for symbols, and see a quick outline of a file
+
+
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
 
