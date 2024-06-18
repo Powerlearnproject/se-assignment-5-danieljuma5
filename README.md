@@ -93,14 +93,82 @@ C/C++: "C/C++" by Microsoft for debugging and IntelliSense.
    #### Creating projects eg flutter
    #### Accessing various settings and configurations.
    #### Changing themes and font
-   #### editor commands,open files, search for symbols, and see a quick outline of a file
+   #### Accessing editor commands,open files, search for symbols, and see a quick outline of a file
+   #### You can install, disable, update, and uninstall extensions
+
 
 
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+   #### Extensions help you add languages, debuggers, and tools to your installation to support your development workflow
+
+   #### Users can bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code or the View: Extensions command (Ctrl+Shift+X).
+
+   Common Extensions
+   General Extensions
+Prettier - Code Formatter
+Ensures consistent code formatting across your project.
+
+ESLint
+Integrates ESLint into VS Code for JavaScript/TypeScript linting.
+
+Live Server
+Launches a local development server with live reload feature for static and dynamic pages.
+
+Path Intellisense
+Autocompletes file paths in your projects.
+
+HTML CSS Support
+Enhances HTML and CSS development with better autocompletion.
+
+JavaScript (ES6) Code Snippets
+Provides a collection of ES6 code snippets for faster development.
+
+CSS Peek
+Allows you to quickly peek and jump to CSS definitions from your HTML files.
+
+IntelliSense for CSS class names in HTML
+Autocompletes CSS class names in HTML files.
+
+Debugger for Chrome
+Debug your JavaScript code in Google Chrome directly from VS Code.
+
+npm Intellisense
+Autocompletes npm modules in import statements.
+
+Auto Rename Tag
+Automatically renames paired HTML/XML tags.
+
+Bracket Pair Colorizer
+Colors matching brackets to make nested code blocks more readable.
+
+GitLens
+Enhances Git capabilities, making it easier to visualize code authorship, history, and repository changes.
+
+REST Client
+Allows you to send HTTP requests and view responses directly in VS Code.
+
+CSS and Styling Extensions
+Tailwind CSS IntelliSense
+Provides autocomplete, syntax highlighting, and linting for Tailwind CSS classes.
+
+Emmet
+Provides high-speed coding and editing for HTML, CSS, and more.
+
+#### Prettify JSON
+Formats your JSON files for better readability.
 
 6. Integrated Terminal:
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+   #### integrated terminal that starts at the root of your workspace. It provides integration with the editor to support features like links and error detection. The integrated terminal can run commands such as mkdir and git just like a standalone terminal.
+
+   You can open a terminal as follows:
+
+#### From the menu, use the Terminal > New Terminal or View > Terminal menu commands.
+#### From the Command Palette (Ctrl+Shift+P), use the View: Toggle Terminal command.
+#### In the Explorer, you can use the Open in Integrated Terminal context menu command to open a new terminal from a folder.
+#### To toggle the terminal panel, use the Ctrl+` keyboard shortcut.
+#### To create a new terminal, use the Ctrl+Shift+` keyboard shortcut.
 
 7. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
