@@ -75,6 +75,14 @@ C/C++: "C/C++" by Microsoft for debugging and IntelliSense.
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
 
+   #### 1._Activity Bar_ - Located on the far left-hand side. Lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled. You can change the position of the Activity Bar.
+
+   #### 2._Side Bar_ -  Contains different views like the Explorer to assist you while working on your project.
+
+   #### 3._Editor Group_ - When you split an editor (using the Split Editor or Open to the Side commands), a new editor region (edit group) is created which can hold a group of items. You can open as many editor groups as you like side by side vertically and horizontally.
+
+   #### 4. _Status Bar._ -  Information about the opened project and the files you edit.
+
 4. Command Palette:
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
