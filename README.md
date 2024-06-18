@@ -245,11 +245,114 @@ Right-click on the file or folder, select Cut, navigate to the new location, rig
 8. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
+   Where to Find and Customize Settings
+Accessing Settings
+Settings Menu:
+Go to File > Preferences > Settings (Windows/Linux).
+Go to Code > Preferences > Settings (Mac).
+Command Palette:
+Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+Type Preferences: Open Settings and press Enter.
+Changing the Theme
+Using the Settings Menu:
+
+Go to File > Preferences > Color Theme (Windows/Linux) or Code > Preferences > Color Theme (Mac).
+Select a theme from the list.
+Using the Command Palette:
+
+Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+Type Color Theme and press Enter.
+Select a theme from the list.
+Changing the Font Size
+Using the Settings Menu:
+
+Open the settings and search for Font Size.
+Adjust the Editor: Font Size setting to your preferred size.
+Editing the Settings JSON:
+
+Open the settings and click the {} icon to open the settings JSON.
+Add or modify the following line:
+```
+"editor.fontSize": 14
+```
+Changing Keybindings
+Using the Settings Menu:
+
+Go to File > Preferences > Keyboard Shortcuts (Windows/Linux) or Code > Preferences > Keyboard Shortcuts (Mac).
+Search for the command you want to change.
+Click the pencil icon next to the command and press the desired key combination.
+Editing the Keybindings JSON:
+
+Open the keybindings editor and click the {} icon to open the keybindings JSON.
+Add or modify keybindings. For example:
+```
+{
+  "key": "ctrl+k ctrl+c",
+  "command": "editor.action.addCommentLine",
+  "when": "editorTextFocus"
+}
+```
 9. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
+   Open Your Project:
+
+Open the folder containing your project files.
+Create a Debug Configuration:
+
+#### Go to Run > Add Configuration....
+#### Select the environment (e.g., Node.js for JavaScript).
+Set Breakpoints:
+
+Open the file you want to debug.
+#### Click in the gutter next to the line number where you want to set a breakpoint.
+#### Start Debugging:
+
+#### Press F5 to start debugging.
+The debugger will run your program and stop at the breakpoints you set.
+Key Debugging Features
+#### Breakpoints: Set breakpoints to pause execution at specific lines.
+#### Watch Expressions: Evaluate expressions and watch their values change in real-time.
+#### Call Stack: View the call stack to see the sequence of function calls.
+Variables: Inspect the values of variables in the current scope.
+#### Step Over/Into/Out: Navigate through your code line by line or function by function.
+
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+    Initializing a Repository
+#### Open Your Project:
+
+Open the folder containing your project files.
+Initialize Git:
+
+Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G (Windows/Linux) or Cmd+Shift+G (Mac).
+Click Initialize Repository.
+Making Commits
+Stage Changes:
+
+In the Source Control view, click the + icon next to the files you want to stage or click + next to Changes to stage all changes.
+Commit Changes:
+
+Enter a commit message in the message box at the top of the Source Control view.
+Click the checkmark icon to commit the staged changes.
+Pushing Changes to GitHub
+Set Up Remote Repository:
+
+Open the terminal in VS Code (Ctrl+`).
+Add a remote repository:
+```
+git remote add origin <repository-URL>
+```
+Push Changes:
+
+Push your changes to the remote repository:
+bash
+```
+git push -u origin master
+```
+Using the Source Control View:
+
+After setting up the remote repository, you can use the Source Control view to push changes. Click the ... icon and select Push.
 
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
