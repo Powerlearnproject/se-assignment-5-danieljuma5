@@ -9,9 +9,68 @@ Answer the following questions based on your understanding of the installation a
 
 1. Installation of VS Code:
    - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+   ---
+   ### Steps required to install VS-code on windows
+    #### 1. Download the Visual Studio Code installer for Windows.
+    #### 2. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). 3. 3. This will only take a minute.
+#### By default, VS Code is installed under C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code.
+## Alternatively
 
+### Windows Subsystem for Linux
+Windows is a popular operating system and it can be a great cross-platform development environment. This section describes cross-platform features such as the Windows Subsystem for Linux (WSL) and the new Windows Terminal.
+
+### Recent Windows build
+&nbsp;&nbsp;Make sure you are on a recent Windows 11 build. Check Settings > Windows Update to see if you are up-to-date.
+
+&nbsp;&nbsp;Windows as a developer machine
+&nbsp;&nbsp;With WSL, you can install and run Linux distributions on Windows. This enables you to develop and test your source code on Linux while still working locally on your Windows machine.
+
+&nbsp;&nbsp;When coupled with the WSL extension, you get full VS Code editing and debugging support while running in the context of WSL.
+
+---
 2. First-time Setup:
    - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+   ### 1. Basic Settings Configuration
+### a. User Interface and Appearance
+#### Theme: Choose a theme that is comfortable for your eyes.
+Dark Theme: "One Dark Pro" or "Dracula"
+Light Theme: "Atom One Light" or "Quiet Light"
+Icon Theme: "Material Icon Theme" for better visual file distinctions.
+b. Editor Settings
+Font Family: Set to a clear, legible monospace font like "Fira Code" or "Cascadia Code".
+Font Size: Adjust to your preference, typically between 12-14px.
+
+Word Wrap: Enable word wrap to prevent horizontal scrolling.
+
+Auto Save: Set to automatically save files after a delay.
+
+#### 2. Extensions to Install
+### a. General Enhancements
+Settings Sync: Sync your settings, snippets, themes, and extensions across multiple devices.
+
+Prettier - Code Formatter: Ensure consistent code formatting.
+
+
+ESLint: Integrate ESLint for JavaScript/TypeScript projects for linting.
+
+b. Language-Specific Extensions
+Python: "Python" by Microsoft for Python development.
+JavaScript/TypeScript: "ESLint" and "Prettier".
+HTML/CSS: "HTML CSS Support" for better autocompletion and linting.
+C/C++: "C/C++" by Microsoft for debugging and IntelliSense.
+### 3. Debugging Configuration
+#### a. Common Debugging Tools
+
+#### Live Server: Launch a development local server with live reload feature.
+### 4. Source 
+### Control Integration
+#### a. Git Integration
+#### GitLens: Enhance Git capabilities within VS Code, making it easier to visualize code authorship and history.
+#### Git Graph: Provides a graph to visualize the repository's commit history.
+
+### 5. Keybindings
+#### Customize keybindings to enhance productivity. For example, set up shortcuts for common tasks like duplicating lines, opening the integrated terminal, or running code snippets.
+
 
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
